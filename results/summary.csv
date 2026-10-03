@@ -1,0 +1,201 @@
+test,opt,result
+t051_palindromic_substrings.c,-O0,PASS
+t051_palindromic_substrings.c,-O1,PASS
+t051_palindromic_substrings.c,-O2,PASS
+t051_palindromic_substrings.c,-O3,PASS
+t052_kmp_pattern_search.c,-O0,PASS
+t052_kmp_pattern_search.c,-O1,PASS
+t052_kmp_pattern_search.c,-O2,PASS
+t052_kmp_pattern_search.c,-O3,PASS
+t053_word_count_statistics.c,-O0,PASS
+t053_word_count_statistics.c,-O1,PASS
+t053_word_count_statistics.c,-O2,PASS
+t053_word_count_statistics.c,-O3,PASS
+t054_caesar_cipher.c,-O0,PASS
+t054_caesar_cipher.c,-O1,PASS
+t054_caesar_cipher.c,-O2,PASS
+t054_caesar_cipher.c,-O3,PASS
+t055_run_length_encoding.c,-O0,PASS
+t055_run_length_encoding.c,-O1,PASS
+t055_run_length_encoding.c,-O2,PASS
+t055_run_length_encoding.c,-O3,PASS
+t056_fnv1a_hash_buffer.c,-O0,PASS
+t056_fnv1a_hash_buffer.c,-O1,PASS
+t056_fnv1a_hash_buffer.c,-O2,PASS
+t056_fnv1a_hash_buffer.c,-O3,PASS
+t057_anagram_signatures.c,-O0,PASS
+t057_anagram_signatures.c,-O1,PASS
+t057_anagram_signatures.c,-O2,PASS
+t057_anagram_signatures.c,-O3,PASS
+t058_base64_encode.c,-O0,PASS
+t058_base64_encode.c,-O1,PASS
+t058_base64_encode.c,-O2,PASS
+t058_base64_encode.c,-O3,PASS
+t059_itoa_atoi_roundtrip.c,-O0,PASS
+t059_itoa_atoi_roundtrip.c,-O1,PASS
+t059_itoa_atoi_roundtrip.c,-O2,PASS
+t059_itoa_atoi_roundtrip.c,-O3,PASS
+t060_popcount_methods.c,-O0,PASS
+t060_popcount_methods.c,-O1,PASS
+t060_popcount_methods.c,-O2,PASS
+t060_popcount_methods.c,-O3,PASS
+t061_bit_reversal.c,-O0,PASS
+t061_bit_reversal.c,-O1,PASS
+t061_bit_reversal.c,-O2,PASS
+t061_bit_reversal.c,-O3,PASS
+t062_crc32_table.c,-O0,PASS
+t062_crc32_table.c,-O1,PASS
+t062_crc32_table.c,-O2,PASS
+t062_crc32_table.c,-O3,PASS
+t063_adler32_checksum.c,-O0,PASS
+t063_adler32_checksum.c,-O1,PASS
+t063_adler32_checksum.c,-O2,PASS
+t063_adler32_checksum.c,-O3,PASS
+t064_hash_mixing_rounds.c,-O0,PASS
+t064_hash_mixing_rounds.c,-O1,PASS
+t064_hash_mixing_rounds.c,-O2,PASS
+t064_hash_mixing_rounds.c,-O3,PASS
+t065_function_pointer_table.c,-O0,PASS
+t065_function_pointer_table.c,-O1,PASS
+t065_function_pointer_table.c,-O2,PASS
+t065_function_pointer_table.c,-O3,PASS
+t066_union_float_bits.c,-O0,PASS
+t066_union_float_bits.c,-O1,PASS
+t066_union_float_bits.c,-O2,PASS
+t066_union_float_bits.c,-O3,PASS
+t067_bitfield_struct.c,-O0,PASS
+t067_bitfield_struct.c,-O1,PASS
+t067_bitfield_struct.c,-O2,PASS
+t067_bitfield_struct.c,-O3,PASS
+t068_variable_length_array.c,-O0,PASS
+t068_variable_length_array.c,-O1,PASS
+t068_variable_length_array.c,-O2,PASS
+t068_variable_length_array.c,-O3,PASS
+t069_setjmp_longjmp.c,-O0,PASS
+t069_setjmp_longjmp.c,-O1,PASS
+t069_setjmp_longjmp.c,-O2,PASS
+t069_setjmp_longjmp.c,-O3,PASS
+t070_variadic_functions.c,-O0,PASS
+t070_variadic_functions.c,-O1,PASS
+t070_variadic_functions.c,-O2,PASS
+t070_variadic_functions.c,-O3,PASS
+t071_goto_state_machine.c,-O0,PASS
+t071_goto_state_machine.c,-O1,PASS
+t071_goto_state_machine.c,-O2,PASS
+t071_goto_state_machine.c,-O3,PASS
+t072_compound_literals_designated.c,-O0,PASS
+t072_compound_literals_designated.c,-O1,PASS
+t072_compound_literals_designated.c,-O2,PASS
+t072_compound_literals_designated.c,-O3,PASS
+t073_generic_selection.c,-O0,PASS
+t073_generic_selection.c,-O1,PASS
+t073_generic_selection.c,-O2,PASS
+t073_generic_selection.c,-O3,PASS
+t074_integer_promotions.c,-O0,PASS
+t074_integer_promotions.c,-O1,PASS
+t074_integer_promotions.c,-O2,PASS
+t074_integer_promotions.c,-O3,PASS
+t075_unsigned_wraparound.c,-O0,PASS
+t075_unsigned_wraparound.c,-O1,PASS
+t075_unsigned_wraparound.c,-O2,PASS
+t075_unsigned_wraparound.c,-O3,PASS
+t076_ackermann_recursion.c,-O0,PASS
+t076_ackermann_recursion.c,-O1,PASS
+t076_ackermann_recursion.c,-O2,PASS
+t076_ackermann_recursion.c,-O3,PASS
+t077_tower_of_hanoi.c,-O0,PASS
+t077_tower_of_hanoi.c,-O1,PASS
+t077_tower_of_hanoi.c,-O2,PASS
+t077_tower_of_hanoi.c,-O3,PASS
+t078_linked_list_operations.c,-O0,PASS
+t078_linked_list_operations.c,-O1,PASS
+t078_linked_list_operations.c,-O2,PASS
+t078_linked_list_operations.c,-O3,PASS
+t079_binary_search_tree.c,-O0,PASS
+t079_binary_search_tree.c,-O1,PASS
+t079_binary_search_tree.c,-O2,PASS
+t079_binary_search_tree.c,-O3,PASS
+t080_hash_table_chaining.c,-O0,PASS
+t080_hash_table_chaining.c,-O1,PASS
+t080_hash_table_chaining.c,-O2,PASS
+t080_hash_table_chaining.c,-O3,PASS
+t081_bracket_matching_stack.c,-O0,PASS
+t081_bracket_matching_stack.c,-O1,PASS
+t081_bracket_matching_stack.c,-O2,PASS
+t081_bracket_matching_stack.c,-O3,PASS
+t082_brainfuck_interpreter.c,-O0,PASS
+t082_brainfuck_interpreter.c,-O1,PASS
+t082_brainfuck_interpreter.c,-O2,PASS
+t082_brainfuck_interpreter.c,-O3,PASS
+t083_game_of_life.c,-O0,PASS
+t083_game_of_life.c,-O1,PASS
+t083_game_of_life.c,-O2,PASS
+t083_game_of_life.c,-O3,PASS
+t084_sudoku_backtracking.c,-O0,PASS
+t084_sudoku_backtracking.c,-O1,PASS
+t084_sudoku_backtracking.c,-O2,PASS
+t084_sudoku_backtracking.c,-O3,PASS
+t085_expression_parser.c,-O0,PASS
+t085_expression_parser.c,-O1,PASS
+t085_expression_parser.c,-O2,PASS
+t085_expression_parser.c,-O3,PASS
+t086_ub_signed_overflow_loop.c,-O0,PASS
+t086_ub_signed_overflow_loop.c,-O1,OUTPUT MISMATCH
+t086_ub_signed_overflow_loop.c,-O2,RUNTIME ERROR
+t086_ub_signed_overflow_loop.c,-O3,RUNTIME ERROR
+t087_ub_signed_overflow_compare.c,-O0,OUTPUT MISMATCH
+t087_ub_signed_overflow_compare.c,-O1,PASS
+t087_ub_signed_overflow_compare.c,-O2,PASS
+t087_ub_signed_overflow_compare.c,-O3,PASS
+t088_ub_signed_overflow_multiply_divide.c,-O0,OUTPUT MISMATCH
+t088_ub_signed_overflow_multiply_divide.c,-O1,PASS
+t088_ub_signed_overflow_multiply_divide.c,-O2,PASS
+t088_ub_signed_overflow_multiply_divide.c,-O3,PASS
+t089_ub_strict_aliasing.c,-O0,PASS
+t089_ub_strict_aliasing.c,-O1,OUTPUT MISMATCH
+t089_ub_strict_aliasing.c,-O2,PASS
+t089_ub_strict_aliasing.c,-O3,PASS
+t090_ub_out_of_bounds_global.c,-O0,PASS
+t090_ub_out_of_bounds_global.c,-O1,PASS
+t090_ub_out_of_bounds_global.c,-O2,PASS
+t090_ub_out_of_bounds_global.c,-O3,PASS
+t091_ub_sequence_point.c,-O0,PASS
+t091_ub_sequence_point.c,-O1,PASS
+t091_ub_sequence_point.c,-O2,PASS
+t091_ub_sequence_point.c,-O3,PASS
+t092_ub_argument_evaluation_order.c,-O0,OUTPUT MISMATCH
+t092_ub_argument_evaluation_order.c,-O1,OUTPUT MISMATCH
+t092_ub_argument_evaluation_order.c,-O2,OUTPUT MISMATCH
+t092_ub_argument_evaluation_order.c,-O3,OUTPUT MISMATCH
+t093_ub_modify_const_object.c,-O0,OUTPUT MISMATCH
+t093_ub_modify_const_object.c,-O1,PASS
+t093_ub_modify_const_object.c,-O2,PASS
+t093_ub_modify_const_object.c,-O3,PASS
+t094_ub_division_by_zero_unused.c,-O0,RUNTIME ERROR
+t094_ub_division_by_zero_unused.c,-O1,PASS
+t094_ub_division_by_zero_unused.c,-O2,PASS
+t094_ub_division_by_zero_unused.c,-O3,PASS
+t095_ub_restrict_violation.c,-O0,PASS
+t095_ub_restrict_violation.c,-O1,OUTPUT MISMATCH
+t095_ub_restrict_violation.c,-O2,OUTPUT MISMATCH
+t095_ub_restrict_violation.c,-O3,OUTPUT MISMATCH
+t096_ub_memcpy_overlap.c,-O0,OUTPUT MISMATCH
+t096_ub_memcpy_overlap.c,-O1,OUTPUT MISMATCH
+t096_ub_memcpy_overlap.c,-O2,OUTPUT MISMATCH
+t096_ub_memcpy_overlap.c,-O3,OUTPUT MISMATCH
+t097_ub_abs_of_int_min.c,-O0,PASS
+t097_ub_abs_of_int_min.c,-O1,PASS
+t097_ub_abs_of_int_min.c,-O2,PASS
+t097_ub_abs_of_int_min.c,-O3,PASS
+t098_ub_pointer_overflow_check.c,-O0,PASS
+t098_ub_pointer_overflow_check.c,-O1,PASS
+t098_ub_pointer_overflow_check.c,-O2,PASS
+t098_ub_pointer_overflow_check.c,-O3,PASS
+t099_ub_signed_overflow_doubling.c,-O0,PASS
+t099_ub_signed_overflow_doubling.c,-O1,OUTPUT MISMATCH
+t099_ub_signed_overflow_doubling.c,-O2,PASS
+t099_ub_signed_overflow_doubling.c,-O3,PASS
+t100_ub_negative_left_shift.c,-O0,PASS
+t100_ub_negative_left_shift.c,-O1,PASS
+t100_ub_negative_left_shift.c,-O2,PASS
+t100_ub_negative_left_shift.c,-O3,PASS

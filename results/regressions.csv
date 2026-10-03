@@ -1,0 +1,107 @@
+test,opt,family,old_version,new_version,type,change_pct,old_time,new_time,detail
+t052_kmp_pattern_search.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,36.1,0.038446164999999866,0.0523192380000026,38.4 ms -> 52.3 ms
+t056_fnv1a_hash_buffer.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,113.6,0.028775221000000073,0.061459474000002956,28.8 ms -> 61.5 ms
+t059_itoa_atoi_roundtrip.c,-O2,clang,clang-11,clang-15,PERFORMANCE REGRESSION,43.6,0.057513887000006036,0.08258469500000132,57.5 ms -> 82.6 ms
+t059_itoa_atoi_roundtrip.c,-O3,clang,clang-11,clang-15,PERFORMANCE REGRESSION,55.6,0.05250437400000152,0.08168256900000159,52.5 ms -> 81.7 ms
+t062_crc32_table.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,89.8,0.029845899999997982,0.05665111499999398,29.8 ms -> 56.7 ms
+t063_adler32_checksum.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,54.0,0.04980845599999384,0.07669851400000027,49.8 ms -> 76.7 ms
+t065_function_pointer_table.c,-O2,clang,clang-11,clang-15,PERFORMANCE REGRESSION,26.8,0.01928510999999844,0.024452109999998584,19.3 ms -> 24.5 ms
+t071_goto_state_machine.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,30.6,0.01946527399999809,0.025420906999997328,19.5 ms -> 25.4 ms
+t073_generic_selection.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,107.0,0.008258502000003887,0.017092628999989756,8.3 ms -> 17.1 ms
+t080_hash_table_chaining.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,24.7,0.020454053999998223,0.02549684400000274,20.5 ms -> 25.5 ms
+t081_bracket_matching_stack.c,-O0,clang,clang-11,clang-15,PERFORMANCE REGRESSION,28.9,0.03331824499998959,0.04294261300000812,33.3 ms -> 42.9 ms
+t086_ub_signed_overflow_loop.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010891590000028373,0.0010256850000018858,clang-11: output differs between -O0 and -O1
+t086_ub_signed_overflow_loop.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010891590000028373,0.001006776999986414,clang-11: output differs between -O0 and -O2
+t086_ub_signed_overflow_loop.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010891590000028373,0.001050211999995554,clang-11: output differs between -O0 and -O3
+t086_ub_signed_overflow_loop.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009895669999906431,0.001091404000007401,clang-15: output differs between -O0 and -O1
+t086_ub_signed_overflow_loop.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009895669999906431,0.0010708559999841327,clang-15: output differs between -O0 and -O2
+t086_ub_signed_overflow_loop.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009895669999906431,0.0011617910000154552,clang-15: output differs between -O0 and -O3
+t087_ub_signed_overflow_compare.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010484830000052625,0.0010124810000036177,clang-11: output differs between -O0 and -O1
+t087_ub_signed_overflow_compare.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010484830000052625,0.000936927999987347,clang-11: output differs between -O0 and -O2
+t087_ub_signed_overflow_compare.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010484830000052625,0.0010259419999840702,clang-11: output differs between -O0 and -O3
+t087_ub_signed_overflow_compare.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010084580000011556,0.0010163379999994504,clang-15: output differs between -O0 and -O1
+t087_ub_signed_overflow_compare.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010084580000011556,0.001284510000004957,clang-15: output differs between -O0 and -O2
+t087_ub_signed_overflow_compare.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010084580000011556,0.0011102859999994052,clang-15: output differs between -O0 and -O3
+t088_ub_signed_overflow_multiply_divide.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010290700000155084,0.0010039550000158215,clang-11: output differs between -O0 and -O1
+t088_ub_signed_overflow_multiply_divide.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010290700000155084,0.0009302590000004329,clang-11: output differs between -O0 and -O2
+t088_ub_signed_overflow_multiply_divide.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0010290700000155084,0.0009869419999972706,clang-11: output differs between -O0 and -O3
+t088_ub_signed_overflow_multiply_divide.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010413800000037554,0.001084316999993007,clang-15: output differs between -O0 and -O1
+t088_ub_signed_overflow_multiply_divide.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010413800000037554,0.000999598999982254,clang-15: output differs between -O0 and -O2
+t088_ub_signed_overflow_multiply_divide.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010413800000037554,0.0010946990000206824,clang-15: output differs between -O0 and -O3
+t089_ub_strict_aliasing.c,-O0 vs -O2,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0008256929999959084,0.0009281989999863072,gcc-9: output differs between -O0 and -O2
+t089_ub_strict_aliasing.c,-O0 vs -O3,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0008256929999959084,0.0010763809999900786,gcc-9: output differs between -O0 and -O3
+t089_ub_strict_aliasing.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008105670000020382,0.0012163659999941956,gcc-12: output differs between -O0 and -O2
+t089_ub_strict_aliasing.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008105670000020382,0.0009843500000101812,gcc-12: output differs between -O0 and -O3
+t089_ub_strict_aliasing.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0009886140000219257,0.0010138890000064293,clang-11: output differs between -O0 and -O1
+t089_ub_strict_aliasing.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0009886140000219257,0.0010787710000101924,clang-11: output differs between -O0 and -O2
+t089_ub_strict_aliasing.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0009886140000219257,0.0010110819999908927,clang-11: output differs between -O0 and -O3
+t089_ub_strict_aliasing.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010161980000020776,0.0014514480000116237,clang-15: output differs between -O0 and -O1
+t089_ub_strict_aliasing.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010161980000020776,0.0016529449999893586,clang-15: output differs between -O0 and -O2
+t089_ub_strict_aliasing.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0010161980000020776,0.0012338270000213925,clang-15: output differs between -O0 and -O3
+t090_ub_out_of_bounds_global.c,-O0 vs -O1,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0010482020000210923,0.0010516039999970417,gcc-9: output differs between -O0 and -O1
+t090_ub_out_of_bounds_global.c,-O0 vs -O2,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0010482020000210923,0.0009541650000244317,gcc-9: output differs between -O0 and -O2
+t090_ub_out_of_bounds_global.c,-O0 vs -O3,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0010482020000210923,0.0008687689999931081,gcc-9: output differs between -O0 and -O3
+t090_ub_out_of_bounds_global.c,-O0 vs -O1,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009314059999780966,0.0013061710000101812,gcc-12: output differs between -O0 and -O1
+t090_ub_out_of_bounds_global.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009314059999780966,0.0011478399999873545,gcc-12: output differs between -O0 and -O2
+t090_ub_out_of_bounds_global.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009314059999780966,0.0010209060000079262,gcc-12: output differs between -O0 and -O3
+t090_ub_out_of_bounds_global.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.000989449000002196,0.0010708419999900798,clang-11: output differs between -O0 and -O1
+t090_ub_out_of_bounds_global.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.000989449000002196,0.0009003559999882782,clang-11: output differs between -O0 and -O2
+t090_ub_out_of_bounds_global.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.000989449000002196,0.0009085840000011558,clang-11: output differs between -O0 and -O3
+t090_ub_out_of_bounds_global.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009519569999838495,0.000975175999997191,clang-15: output differs between -O0 and -O1
+t090_ub_out_of_bounds_global.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009519569999838495,0.0009431489999940368,clang-15: output differs between -O0 and -O2
+t090_ub_out_of_bounds_global.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009519569999838495,0.0010761370000125225,clang-15: output differs between -O0 and -O3
+t093_ub_modify_const_object.c,-O0 vs -O1,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0011176900000009482,0.0008672740000008616,gcc-9: output differs between -O0 and -O1
+t093_ub_modify_const_object.c,-O0 vs -O2,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0011176900000009482,0.0011340150000194171,gcc-9: output differs between -O0 and -O2
+t093_ub_modify_const_object.c,-O0 vs -O3,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0011176900000009482,0.0008708340000112003,gcc-9: output differs between -O0 and -O3
+t093_ub_modify_const_object.c,-O0 vs -O1,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008218549999980951,0.0008893749999856482,gcc-12: output differs between -O0 and -O1
+t093_ub_modify_const_object.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008218549999980951,0.0010687969999878533,gcc-12: output differs between -O0 and -O2
+t093_ub_modify_const_object.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008218549999980951,0.0008296720000089408,gcc-12: output differs between -O0 and -O3
+t095_ub_restrict_violation.c,-O1,gcc,gcc-9,gcc-12,OUTPUT REGRESSION,,0.0009498809999968216,0.0009676359999843953,old=588beb2f8c new=83d889d93a
+t095_ub_restrict_violation.c,-O2,gcc,gcc-9,gcc-12,OUTPUT REGRESSION,,0.001024935999993204,0.0010330190000047423,old=588beb2f8c new=83d889d93a
+t095_ub_restrict_violation.c,-O3,gcc,gcc-9,gcc-12,OUTPUT REGRESSION,,0.0009520100000202092,0.0009828729999981078,old=588beb2f8c new=83d889d93a
+t095_ub_restrict_violation.c,-O0 vs -O1,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0013151160000006712,0.0009676359999843953,gcc-12: output differs between -O0 and -O1
+t095_ub_restrict_violation.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0013151160000006712,0.0010330190000047423,gcc-12: output differs between -O0 and -O2
+t095_ub_restrict_violation.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0013151160000006712,0.0009828729999981078,gcc-12: output differs between -O0 and -O3
+t095_ub_restrict_violation.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0014148629999795048,0.0010800050000057126,clang-11: output differs between -O0 and -O1
+t095_ub_restrict_violation.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0014148629999795048,0.0010623869999903945,clang-11: output differs between -O0 and -O2
+t095_ub_restrict_violation.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0014148629999795048,0.0013045890000000782,clang-11: output differs between -O0 and -O3
+t095_ub_restrict_violation.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.001421367999995482,0.0010243570000056934,clang-15: output differs between -O0 and -O1
+t095_ub_restrict_violation.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.001421367999995482,0.0011607350000133465,clang-15: output differs between -O0 and -O2
+t095_ub_restrict_violation.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.001421367999995482,0.0010447020000015073,clang-15: output differs between -O0 and -O3
+t096_ub_memcpy_overlap.c,-O1,gcc,gcc-9,gcc-12,OUTPUT REGRESSION,,0.0009017360000029839,0.0011897969999949964,old=eee66dfac9 new=b4f3ce3053
+t096_ub_memcpy_overlap.c,-O2,gcc,gcc-9,gcc-12,OUTPUT REGRESSION,,0.0008661210000013853,0.0008776900000100341,old=eee66dfac9 new=b4f3ce3053
+t096_ub_memcpy_overlap.c,-O3,gcc,gcc-9,gcc-12,OUTPUT REGRESSION,,0.0010466589999964526,0.0011771240000086891,old=eee66dfac9 new=b4f3ce3053
+t096_ub_memcpy_overlap.c,-O0 vs -O1,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009305429999812986,0.0009017360000029839,gcc-9: output differs between -O0 and -O1
+t096_ub_memcpy_overlap.c,-O0 vs -O2,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009305429999812986,0.0008661210000013853,gcc-9: output differs between -O0 and -O2
+t096_ub_memcpy_overlap.c,-O0 vs -O3,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009305429999812986,0.0010466589999964526,gcc-9: output differs between -O0 and -O3
+t096_ub_memcpy_overlap.c,-O0 vs -O1,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008138590000044132,0.0011897969999949964,gcc-12: output differs between -O0 and -O1
+t096_ub_memcpy_overlap.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008138590000044132,0.0008776900000100341,gcc-12: output differs between -O0 and -O2
+t096_ub_memcpy_overlap.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0008138590000044132,0.0011771240000086891,gcc-12: output differs between -O0 and -O3
+t096_ub_memcpy_overlap.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.001044480999979669,0.0011286489999804417,clang-11: output differs between -O0 and -O1
+t096_ub_memcpy_overlap.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.001044480999979669,0.0011290260000009766,clang-11: output differs between -O0 and -O2
+t096_ub_memcpy_overlap.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.001044480999979669,0.0011624990000029811,clang-11: output differs between -O0 and -O3
+t096_ub_memcpy_overlap.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009689179999838871,0.0014454029999910745,clang-15: output differs between -O0 and -O1
+t096_ub_memcpy_overlap.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009689179999838871,0.0012099320000231728,clang-15: output differs between -O0 and -O2
+t096_ub_memcpy_overlap.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009689179999838871,0.0012451829999804431,clang-15: output differs between -O0 and -O3
+t097_ub_abs_of_int_min.c,-O0 vs -O1,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009715270000185683,0.0008970020000163004,gcc-9: output differs between -O0 and -O1
+t097_ub_abs_of_int_min.c,-O0 vs -O2,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009715270000185683,0.001086227000001827,gcc-9: output differs between -O0 and -O2
+t097_ub_abs_of_int_min.c,-O0 vs -O3,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009715270000185683,0.0011012569999877542,gcc-9: output differs between -O0 and -O3
+t097_ub_abs_of_int_min.c,-O0 vs -O1,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009194000000150027,0.0009202899999820602,gcc-12: output differs between -O0 and -O1
+t097_ub_abs_of_int_min.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009194000000150027,0.001147545999998556,gcc-12: output differs between -O0 and -O2
+t097_ub_abs_of_int_min.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009194000000150027,0.0008676010000101542,gcc-12: output differs between -O0 and -O3
+t097_ub_abs_of_int_min.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0012646220000078756,0.001010393000001386,clang-11: output differs between -O0 and -O1
+t097_ub_abs_of_int_min.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0012646220000078756,0.0010421240000084708,clang-11: output differs between -O0 and -O2
+t097_ub_abs_of_int_min.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0012646220000078756,0.0011119600000029095,clang-11: output differs between -O0 and -O3
+t097_ub_abs_of_int_min.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009858409999878859,0.0010241170000142574,clang-15: output differs between -O0 and -O1
+t097_ub_abs_of_int_min.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009858409999878859,0.001174313999996457,clang-15: output differs between -O0 and -O2
+t097_ub_abs_of_int_min.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0009858409999878859,0.0011590879999801018,clang-15: output differs between -O0 and -O3
+t099_ub_signed_overflow_doubling.c,-O0 vs -O2,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009615680000081284,0.0009883789999776127,gcc-9: output differs between -O0 and -O2
+t099_ub_signed_overflow_doubling.c,-O0 vs -O3,,gcc-9,gcc-9,OPT-LEVEL MISMATCH,,0.0009615680000081284,0.0009667049999961819,gcc-9: output differs between -O0 and -O3
+t099_ub_signed_overflow_doubling.c,-O0 vs -O2,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009369630000151119,0.0009275559999935012,gcc-12: output differs between -O0 and -O2
+t099_ub_signed_overflow_doubling.c,-O0 vs -O3,,gcc-12,gcc-12,OPT-LEVEL MISMATCH,,0.0009369630000151119,0.0009632919999944534,gcc-12: output differs between -O0 and -O3
+t099_ub_signed_overflow_doubling.c,-O0 vs -O1,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0009399520000101802,0.0013343570000188265,clang-11: output differs between -O0 and -O1
+t099_ub_signed_overflow_doubling.c,-O0 vs -O2,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0009399520000101802,0.0010039949999907094,clang-11: output differs between -O0 and -O2
+t099_ub_signed_overflow_doubling.c,-O0 vs -O3,,clang-11,clang-11,OPT-LEVEL MISMATCH,,0.0009399520000101802,0.0010688520000030621,clang-11: output differs between -O0 and -O3
+t099_ub_signed_overflow_doubling.c,-O0 vs -O1,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0011486779999927421,0.0012448579999784215,clang-15: output differs between -O0 and -O1
+t099_ub_signed_overflow_doubling.c,-O0 vs -O2,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0011486779999927421,0.001039216999998871,clang-15: output differs between -O0 and -O2
+t099_ub_signed_overflow_doubling.c,-O0 vs -O3,,clang-15,clang-15,OPT-LEVEL MISMATCH,,0.0011486779999927421,0.0010546780000026956,clang-15: output differs between -O0 and -O3
